@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>trucker-latha</artifactId>
+  <artifactId>TruckerAPI</artifactId>
   <version>1.0.0</version>
   <build>
   <plugins>
@@ -35,7 +35,7 @@
 
   </plugins>
   </build>
-  <name>trucker-latha</name>
+  <name>TruckerAPI</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
