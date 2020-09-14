@@ -30,7 +30,7 @@ public class AlertsController {
     }
 
 
-    @RequestMapping(method = RequestMethod.GET, value = "{id}")
+    @RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE, value = "{id}")
     Alerts findOne(@PathVariable("id") String id){
         return  alertsService.findOne(id);
     }
